@@ -35,4 +35,26 @@ object Form2: TForm2
     ParentDoubleBuffered = False
     TabOrder = 0
   end
+  object AdvEditBtn1: TAdvEditBtn
+    Left = 336
+    Top = 184
+    Width = 121
+    Height = 21
+    Flat = False
+    LabelFont.Charset = DEFAULT_CHARSET
+    LabelFont.Color = clWindowText
+    LabelFont.Height = -11
+    LabelFont.Name = 'Tahoma'
+    LabelFont.Style = []
+    Lookup.Separator = ';'
+    Color = clWindow
+    Enabled = True
+    ReadOnly = False
+    TabOrder = 1
+    Visible = True
+    Version = '1.3.2.8'
+    ButtonStyle = bsButton
+    ButtonWidth = 16
+    Etched = False
+  end
 end
