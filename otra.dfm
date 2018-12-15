@@ -13,4 +13,26 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Image1: TImage
+    Left = 104
+    Top = 96
+    Width = 105
+    Height = 105
+  end
+  object SpeedButton1: TSpeedButton
+    Left = 352
+    Top = 224
+    Width = 23
+    Height = 22
+  end
+  object BitBtn1: TBitBtn
+    Left = 320
+    Top = 96
+    Width = 75
+    Height = 25
+    Caption = 'BitBtn1'
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
+    TabOrder = 0
+  end
 end
