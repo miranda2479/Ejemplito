@@ -4,10 +4,11 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs;
+  Dialogs, pngimage, ExtCtrls;
 
 type
   TForm1 = class(TForm)
+    Image1: TImage;
   private
     { Private declarations }
   public
