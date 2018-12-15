@@ -4,10 +4,13 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs;
+  Dialogs, Buttons, StdCtrls, ExtCtrls;
 
 type
   TForm2 = class(TForm)
+    Image1: TImage;
+    BitBtn1: TBitBtn;
+    SpeedButton1: TSpeedButton;
   private
     { Private declarations }
   public
